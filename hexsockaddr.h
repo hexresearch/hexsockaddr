@@ -1,7 +1,11 @@
 #ifndef __hexsockaddr_h
 #define __hexsockaddr_h
 
+#ifdef HEXSOCKADDR_PLATFORM_DEFAULT
 #include "hexsockaddr_platform_default.h"
+#else
+#include "hexsockaddr_platform.h"
+#endif
 
 typedef union {
   struct sockaddr         sa;

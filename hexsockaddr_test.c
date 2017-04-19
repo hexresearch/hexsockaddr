@@ -4,6 +4,7 @@
 #include <string.h>
 #include <stdlib.h>
 
+
 #include "hexsockaddr.h"
 
 void test_hexsockaddr4_new_1(void) {
